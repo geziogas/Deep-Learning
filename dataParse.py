@@ -2,6 +2,8 @@
 # for testing our code:
 # "imType(boolean)" and thresholding(uint8) are used for binarizing our images.
 # By setting the imType as "True" and setting thresholding, we get arrays only with 1s and 0s.
+# Comment/Uncomment line 166 in order to choose if images should be also saved as .BMP files and
+# labels saved as .TXT file.
 
 import os
 import glob
