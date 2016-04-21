@@ -1,3 +1,8 @@
+# in this file there are some flag-variables which are usefull,
+# for testing our code:
+# "imType(boolean)" and thresholding(uint8) are used for binarizing our images.
+# By setting the imType as "True" and setting thresholding, we get arrays only with 1s and 0s.
+
 import os
 import glob
 import numpy, scipy.misc
